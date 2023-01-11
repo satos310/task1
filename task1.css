@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+
+header {
+    background-color: orange;
+    width: 100%;
+    height: 50px;
+}
+
+.step-box {
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.step {
+    background-color: lightgray;
+    margin: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+.step-image {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center 100%;
+    padding: 10px;
+}
+
+.step-number {
+    background-color: orange;
+    color: white;
+    width: 48px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.step-text {
+    padding: 10px;
+}
+
+footer {
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+}
